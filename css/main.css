@@ -314,6 +314,17 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 
+.comment-btn {
+  
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+
+
+
 
 /*------------------------------------------------------------------
 [ Logo ]*/
@@ -2938,7 +2949,8 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .size-102 {
-  min-width: 139px;
+  max-width: 120px;
+  min-width: 100px;
   height: 40px;
 }
 
@@ -4293,6 +4305,13 @@ input.num-product::-webkit-inner-spin-button {
 .stext-109{
   color: rgb(223, 223, 223);
 }
+
+.comment-margin{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
 
 
 /*==================================================================
