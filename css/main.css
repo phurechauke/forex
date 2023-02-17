@@ -932,6 +932,10 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   -ms-box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.18);
 }
 
+.faceb {
+  min-width: 500px;
+}
+
 .show-sidebar {
   visibility: visible;
   background-color: rgba(0,0,0,0.6);
