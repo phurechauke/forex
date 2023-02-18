@@ -2938,6 +2938,16 @@ input.num-product::-webkit-inner-spin-button {
   line-height: 1.2857;
 }
 
+.notify {
+  color: #ff1c1c;
+}
+
+
+.notify-blue {
+  color: #0026ff;
+  border-bottom: solid 1px rgb(211, 211, 211);
+}
+
 
 
 
@@ -3757,7 +3767,7 @@ input.num-product::-webkit-inner-spin-button {
   justify-content: space-between;
   
   border-radius: 2px;
-  margin-top: 2px;
+  margin-top: 3px;
   margin-left: 2px;
   margin-right: 2px;
 
