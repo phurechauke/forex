@@ -3742,7 +3742,7 @@ input.num-product::-webkit-inner-spin-button {
   padding-left: px;
   padding-right: px;
   padding-top: px;
-  padding-bottom: px;
+  padding-bottom: 6px;
   
   border-radius: 0px;
   margin-bottom: 0px;
@@ -4050,7 +4050,7 @@ input.num-product::-webkit-inner-spin-button {
 
 .sign-button {
   border: 2px;
-  background-color: rgba(19, 163, 0, 0.836);
+  background-color: rgba(0, 16, 163, 0.877);
   cursor: pointer;
   color: white;
   font-size: bold;
