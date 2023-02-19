@@ -192,6 +192,23 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 
+.youtube {
+   width: 100%;
+   height: 315px;
+  }
+
+
+
+@media (max-width: 440px) {
+  .youtube {
+    width: 100%;
+    height: 170px;
+  }
+}
+
+
+
+
 /*//////////////////////////////////////////////////////////////////
 [ Header ]*/
 
