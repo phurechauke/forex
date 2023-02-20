@@ -3791,8 +3791,8 @@ input.num-product::-webkit-inner-spin-button {
   background-color: #ffffff;
   padding-left: px;
   padding-right: px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: px;
   justify-content: space-between;
   
   border-radius: 2px;
