@@ -2471,6 +2471,7 @@ input.num-product::-webkit-inner-spin-button {
 .block1 {
   position: relative;
   border: 0.01px solid #525252;
+  
 
 }
 
@@ -2479,13 +2480,48 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 /*---------------------------------------------*/
-.block1-name {color: #333;}
+.block1-name {
+  color: #333;
+  font-family: Poppins-Bold;
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+@media (max-width: 500px){
+  .block1-name {
+    font-size: 20px;
+    
+  }
+  .block1-info {display: none;}
+}
+
+
+
 .block1-name1 {color: #333;}
 .block1-name2 {color: #333;}
 .block1-name3 {color: #333;}
 .block1-name4 {color: #333;}
 .block1-name5 {color: #333;}
-.block1-info {color: #555;}
+
+.block1-info {
+  color: #383838;
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+
+.block1-infom {
+  color: #383838;
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+
+
 .block1-info1 {color: rgb(0, 0, 0);}
 .block1-info2 {color: rgb(0, 0, 0);}
 .block1-info3 {color: rgb(0, 0, 0);}
@@ -2532,7 +2568,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .block1-txt:hover .block1-name,
-.block1-txt:hover .block1-info {
+.block1-txt:hover .block1-info .block1-infom {
   color: #fff;
 }
 
@@ -4238,7 +4274,21 @@ input.num-product::-webkit-inner-spin-button {
  .block1-txt:hover .block1-info {
 	background-color: transparent;}
 
+  .block1-txt:hover .block1-infom {
+    background-color: transparent;}
+
 .block1-info {
+	padding-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: rgb(255, 255, 255);
+	border: 2px;
+	opacity: 0.9;
+	border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.block1-infom {
 	padding-bottom: 0px;
 	padding-left: 15px;
 	padding-right: 15px;
