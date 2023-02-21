@@ -4078,7 +4078,7 @@ input.num-product::-webkit-inner-spin-button {
   height: auto;
   justify-content: space-between;
   text-align: left;
-  line-height: 2.5;
+  line-height: 2;
   
 
 
@@ -4090,8 +4090,8 @@ input.num-product::-webkit-inner-spin-button {
 
 
 .my-table tbody tr {
-  border-bottom: 1px solid rgb(82, 82, 82);
-  color: black; }
+  border-bottom: 1px solid rgb(173, 173, 173);
+  color: rgb(75, 75, 75); }
 
 .account-type {
   background-color: rgba(182, 182, 182, 0.432);
@@ -4121,6 +4121,7 @@ input.num-product::-webkit-inner-spin-button {
   opacity: opacity 1s;
   margin-top: 10px;
   padding: 3px;
+  border-radius: 3px;
  }
 
  .sign-button:hover {
