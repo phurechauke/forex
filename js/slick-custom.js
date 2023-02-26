@@ -164,6 +164,36 @@
                 },  
             });
         });
+
+        
+
+
+
+        /*==================================================================
+        [ Slick31 ]*/
+        $('.wrap-slick31').each(function(){
+          $(this).find('.slick31').slick({
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              fade: true,
+              infinite: true,
+              autoplay: false,
+              autoplaySpeed: 6000,
+
+              arrows: true,
+              appendArrows: $(this).find('.wrap-slick31-arrows'),
+              prevArrow:'<button class="arrow-slick31 prev-slick31"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+              nextArrow:'<button class="arrow-slick31 next-slick31"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
+
+              dots: true,
+              appendDots: $(this).find('.wrap-slick31-dots'),
+              dotsClass:'slick31-dots',
+              customPaging: function(slick, index) {
+                  var portrait = $(slick.$slides[index]).data('thumb');
+                  return '<img src=" ' + portrait + ' "/><div class="slick31-dot-overlay"></div>';
+              },  
+          });
+      });
             
                 
 
