@@ -3216,6 +3216,10 @@ iframe {border: none;}
     -moz-transition: all 0.4s;
     transition: all 0.5s;
 }
+
+.trans-044 {
+	padding-left: -10px;
+}
 .trans-05 {
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;

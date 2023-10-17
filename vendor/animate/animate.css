@@ -586,6 +586,8 @@
   animation-name: fadeInDown;
 }
 
+
+
 @keyframes fadeInDownBig {
   from {
     opacity: 0;
